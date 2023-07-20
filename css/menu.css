@@ -186,6 +186,34 @@ header {
   background-repeat: no-repeat;
 }
 
+.baslik {
+  background-color: rgb(0, 4, 17, 0.8);
+}
+header h1 {
+  color: white;
+  text-align: center;
+}
+header nav .menu-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+header nav div a {
+  color: white;
+  font-size: 2rem;
+}
+.social-media {
+  text-align: center;
+}
+.social-media i {
+  font-size: 3.5rem;
+  padding: 3rem 2rem;
+  color: white;
+}
+.butun-menu {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
 /* spacer */
 .spacer {
   width: 100%;
