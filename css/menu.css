@@ -214,6 +214,36 @@ header nav div a {
   justify-content: space-around;
   flex-wrap: wrap;
 }
+.ana-menu h2 {
+  text-align: center;
+  padding: 5rem;
+  font-size: 5rem;
+  color: white;
+}
+.tek-kutu {
+  width: 40%;
+  min-height: max-content;
+  margin: 2rem;
+  padding-bottom: 5rem;
+  color: white;
+}
+.tek-kutu h3 {
+  font-size: 3.5rem;
+  font-weight: 1000;
+}
+.icerik h6 {
+  font-size: 3.5rem;
+}
+
+.icerik {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 4rem 3rem;
+  align-items: flex-end;
+}
+.icerik-item p {
+  font-size: 2rem;
+}
 /* spacer */
 .spacer {
   width: 100%;
@@ -241,9 +271,56 @@ header nav div a {
 /* footer section */
 footer {
   width: 100%;
-  height: 15vh;
-  padding-top: 2.5vh;
-  font-size: 3rem;
+  min-height: max-content;
+  padding-top: 3vh;
+  padding-bottom: 5vh;
+  font-size: 2.5rem;
+  background-color: rgb(0, 4, 17);
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+  padding-top: 0;
+  border-top: 1px solid wheat;
+}
+.footer nav {
+  width: 60vw;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer .texts {
+  display: flex;
+  flex-direction: column;
+  padding-right: 18rem;
+}
+.footer .signin {
+  padding-left: 8rem;
+}
+.footer .texts .navi a {
+  padding-left: 8rem;
+}
+.footer .signin .button {
+  background-color: aliceblue;
+  color: #000;
+  display: inline-block;
+  height: max-content;
+  padding: 0.2rem 1 rem;
+  font-size: 2rem;
+}
+footer .sign input {
+  height: 4rem;
+}
+.navi nav a {
+  color: white;
+  font-size: 2rem;
+}
+.enaltyazi p {
+  font-size: 1.5rem;
+  text-align: end;
+  color: aliceblue;
 }
 
 /* mobile media query */
